@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BMICalculator">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="מחשבון BMI"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="בחר את גילך"
+        android:layout_marginTop="60dp"
+
+        />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/skYourAge"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="הכנס את המשקל שלך"
+        android:textSize="30sp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/etYourWeight"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="הכנס את הגובה שלך"
+        android:textSize="30sp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/etYourHeight"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:id="@+id/tvYourBMI"
+        android:layout_marginTop="60dp"
+        />
+
+
+
+</LinearLayout>
