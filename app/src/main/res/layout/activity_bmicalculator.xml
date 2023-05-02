@@ -16,18 +16,13 @@
         android:layout_margin="20dp"
         />
 
-    <TextView
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="הכנס את הגיל שלך"
         android:textSize="30sp"
-        android:text="בחר את גילך"
-        android:layout_marginTop="60dp"
-
-        />
-    <SeekBar
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:id="@+id/skYourAge"
+        android:layout_marginTop="40dp"
+        android:id="@+id/etYourAge"
         />
 
     <EditText
