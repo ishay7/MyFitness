@@ -3,17 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/itemMenuProteinRemind"
-        android:title="מצב חלבון"
+        android:title="protein alarm"
         app:showAsAction="never"
         />
     <item
         android:id="@+id/itemMenuBmiCalculator"
-        android:title="מחשבון BMI"
+        android:title="BMI calculator"
         app:showAsAction="never"
         />
     <item
-        android:id="@+id/itemMenuConnectOrLogin"
-        android:title="התחברות/ הרשמה"
+        android:id="@+id/itemMenuWorkout"
+        android:title="workout"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/logout"
+        android:title="log out"
         app:showAsAction="never"
         />
 

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".BMICalculator">
 
     <TextView
@@ -16,14 +17,6 @@
         android:layout_margin="20dp"
         />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="הכנס את הגיל שלך"
-        android:textSize="30sp"
-        android:layout_marginTop="40dp"
-        android:id="@+id/etYourAge"
-        />
 
     <EditText
         android:layout_width="match_parent"
@@ -43,12 +36,22 @@
         android:id="@+id/etYourHeight"
         />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/btnBMISave"
+        android:text="save"
+        android:textSize="30sp"
+        />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30sp"
+        android:layout_margin="10dp"
         android:id="@+id/tvYourBMI"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="20dp"
         />
 
 

@@ -5,12 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".proteinAlarm">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="התראת חלבון"
+        android:text="Protein alarm"
         android:textSize="40sp"
         android:layout_gravity="center"
         android:layout_margin="10dp"
@@ -19,49 +20,30 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="הכנס את משקלך"
+        android:hint="Enter your weight"
         android:textSize="30dp"
         android:layout_margin="30dp"
-        android:id="@+id/etYourWeight"
+        android:id="@+id/etProteinWeight"
         />
 
-    <TextView
+
+
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:text="האם אתה מתאמן?"
         android:layout_gravity="center"
-        android:layout_margin="20dp"
+        android:text="save"
+        android:id="@+id/btnProteinSave"
+        android:textSize="30sp"
         />
-
-    <RadioGroup
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/rgDoesWorkout"
-        >
-        <RadioButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="30dp"
-            android:layout_margin="20dp"
-            android:id="@+id/rbYes"
-            android:text="Yes"/>
-        <RadioButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="30dp"
-            android:layout_margin="20dp"
-            android:id="@+id/rbNo"
-            android:text="No"/>
-    </RadioGroup>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:textSize="30dp"
-        android:layout_marginVertical="150dp"
         android:id="@+id/tvAlarmMention"
+        android:layout_marginTop="20dp"
         />
 
 

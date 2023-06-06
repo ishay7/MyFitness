@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
     <TextView
@@ -16,22 +17,31 @@
         android:layout_margin="30dp"
         />
 
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"/>
+
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textSize="50dp"
-        android:text="פרופיל"
-        android:id="@+id/btnMenuProfile"
+        android:text="Log in"
+        android:id="@+id/btnLogin"
         />
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textSize="50dp"
-        android:text="התחל אימון"
-        android:id="@+id/btnStartWorkout"
-        android:layout_margin="20dp"
+        android:text="Register"
+        android:id="@+id/btnRegister"
         />
 
 </LinearLayout>
